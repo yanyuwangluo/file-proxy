@@ -9,7 +9,7 @@ const PREFIX = '/'
 // git使用cnpmjs镜像、分支文件使用jsDelivr镜像的开关，0为关闭，默认开启
 const Config = {
     jsdelivr: 1,
-    cnpmjs: 1
+    cnpmjs: 0
 }
 
 /** @type {RequestInit} */
